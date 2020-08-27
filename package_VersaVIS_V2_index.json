@@ -1,0 +1,64 @@
+{
+  "packages": [
+    {
+      "name": "VersaVIS V2",
+      "maintainer": "Autonomous Systems Lab, ETHZ",
+      "websiteURL": "http://www.asl.ethz.ch",
+      "email": "versavis@ethz-asl.ch",
+      "help": {
+	     "online": "http://www.asl.ethz.ch"
+	  },
+      "platforms": [
+        {
+          "name": "VersaVIS_V2",
+          "architecture": "samd",
+          "version": "2.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": "http://www.asl.ethz.ch"
+          },
+          "url": "https://raw.githubusercontent.com/P4ntomime/VersaVIS_V2/blob/master/VersaVIS_V2.zip",
+          "archiveFileName": "VersaVIS_V2.zip",
+		  "checksum": "SHA-256:0D335B1301E272040D8EFA9396890BFF6C03055A9D87146A47FA1FB9F0244E25",
+          "size": "1193591",
+          "boards": [
+            {"name": "VersaVIS_V2"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0-arduino3"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.2.1"
+            }
+          ]
+        }
+      ],
+      "tools":[]
+    }
+  ]
+}
